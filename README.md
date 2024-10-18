@@ -1,4 +1,4 @@
-## Vehicle Reservation App
+# Vehicle Reservation App
 A web application that allows users to reserve vehicle services. The app features user authentication, vehicle service reservation management, and secure access control. It enables users to view, add, and delete reservations, while ensuring data security and privacy through best practices like HTTPS and access token-based authentication.
 
 ## Tech Stack:
