@@ -65,10 +65,10 @@ AUTH0_CLIENT_SECRET=your-auth0-client-secret
 - **MYSQL_USER**: The MySQL user to connect to the database (e.g., `root`).
 - **MYSQL_PASSWORD**: The password of the MySQL user.
 - **MYSQL_DATABASE**: The name of your MySQL database where reservations will be stored.
-- **jwksUri**: "https://YOUR_AUTH0_DOMAIN/.well-known/jwks.json"
-- **audience**: "Replace with your audience in auth0 api",
-- **issuer**: "https://YOUR_AUTH0_DOMAIN/"
--  
+- **jwksUri**: https://YOUR_AUTH0_DOMAIN/.well-known/jwks.json"=
+- **audience**: Replace with your audience in auth0 api
+- **issuer**: https://YOUR_AUTH0_DOMAIN/
+  
 ### 4. Set Up MySQL Database
 
 Before running the app, you need to create the necessary MySQL database and tables. 
