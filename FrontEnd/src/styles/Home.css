@@ -1,0 +1,34 @@
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e5f2ff;
+  }
+  
+  .welcome-box {
+    padding: 50px;
+    border-radius: 12px;
+    border: 2px solid #002f5f;
+    font-size: 2.5rem;
+    background-color: #f7fafc;
+    color: #002f5f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 60px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .welcome-box:hover {
+    background-color: #002f5f;
+    color: #f7fafc;
+    border-color: #ffcf40;
+  }
+  
+  @media (max-width: 768px) {
+    .welcome-box {
+      font-size: 2rem;
+      padding: 30px;
+    }
+  }
+  
