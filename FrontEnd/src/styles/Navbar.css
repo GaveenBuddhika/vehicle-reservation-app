@@ -1,8 +1,6 @@
-/* Navbar.css */
 
-/* Navbar Container */
 .navbar {
-    background: linear-gradient(135deg, #6a1b9a, #ff8f00); /* Purple to Orange gradient */
+    background: linear-gradient(135deg, #6a1b9a, #ff8f00); 
     padding: 20px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
@@ -15,7 +13,7 @@
     align-items: center;
   }
   
-  /* Logo */
+
   .logo {
     color: #fff;
     font-size: 28px;
@@ -23,7 +21,7 @@
     letter-spacing: 2px;
   }
   
-  /* Navigation Links */
+  
   .nav-links {
     display: flex;
     list-style: none;
@@ -40,11 +38,11 @@
   }
   
   .nav-item:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+    background-color: rgba(255, 255, 255, 0.2);
     transform: translateY(-3px);
   }
   
-  /* Authentication Buttons */
+
   .auth-buttons {
     display: flex;
     gap: 10px;
@@ -61,23 +59,23 @@
     transition: all 0.3s ease;
   }
   
-  /* Log In Button */
+ 
   .login-btn {
-    background-color: #7b1fa2; /* Deep purple */
+    background-color: #7b1fa2; 
   }
   
   .login-btn:hover {
-    background-color: #6a1b9a; /* Darker purple */
+    background-color: #6a1b9a;
     transform: translateY(-3px);
   }
   
-  /* Log Out Button */
+  
   .logout-btn {
-    background-color: #ff7043; /* Vivid orange */
+    background-color: #ff7043; 
   }
   
   .logout-btn:hover {
-    background-color: #f4511e; /* Darker orange */
+    background-color: #f4511e; 
     transform: translateY(-3px);
   }
   
